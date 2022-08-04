@@ -1,0 +1,86 @@
+{
+  "compilerOptions": {
+    "module": "commonjs",
+    "declaration": true,
+    "removeComments": true,
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "allowSyntheticDefaultImports": true,
+    "target": "es2017",
+    "sourceMap": true,
+    "outDir": "./dist",
+    "baseUrl": "./",
+    "paths": {
+      "@nest-example/*": [
+        "apps/api/*"
+      ],
+      "@nest-example/shared/*": [
+        "apps/api/shared/*"
+      ],
+      "@app/shared/persistent-config": [
+        "libs/shared/persistent-config/src"
+      ],
+      "@app/shared/persistent-config/*": [
+        "libs/shared/persistent-config/src/*"
+      ],
+      "@app/shared/environments": [
+        "libs/shared/environments/src"
+      ],
+      "@app/shared/environments/*": [
+        "libs/shared/environments/src/*"
+      ],
+      "@app/shared/entities": [
+        "libs/shared/entities/src"
+      ],
+      "@app/shared/data-access/entities": [
+        "libs/shared/data-access/entities/src"
+      ],
+      "@app/shared/data-access/entities/*": [
+        "libs/shared/data-access/entities/src/*"
+      ],
+      "@app/shared/data-access/models": [
+        "libs/shared/data-access/models/src"
+      ],
+      "@app/shared/data-access/models/*": [
+        "libs/shared/data-access/models/src/*"
+      ],
+      "@app/product/category/data-access": [
+        "libs/product/category/data-access/src"
+      ],
+      "@app/product/category/data-access/*": [
+        "libs/product/category/data-access/src/*"
+      ],
+      "@app/product/category/feature": [
+        "libs/product/category/feature/src"
+      ],
+      "@app/product/category/feature/*": [
+        "libs/product/category/feature/src/*"
+      ],
+      "@app/product/product/feature": [
+        "libs/product/product/feature/src"
+      ],
+      "@app/product/product/feature/*": [
+        "libs/product/product/feature/src/*"
+      ],
+      "@app/product/product/data-access": [
+        "libs/product/product/data-access/src"
+      ],
+      "@app/product/product/data-access/*": [
+        "libs/product/product/data-access/src/*"
+      ],
+      "@app/shared/auth-config": [
+        "libs/shared/auth-config/src"
+      ],
+      "@app/shared/auth-config/*": [
+        "libs/shared/auth-config/src/*"
+      ]
+    },
+    "incremental": true,
+    "skipLibCheck": true,
+    "strictNullChecks": false,
+    "noImplicitAny": false,
+    "strictBindCallApply": false,
+    "forceConsistentCasingInFileNames": false,
+    "noFallthroughCasesInSwitch": false
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "moduleFileExtensions": [
+    "js",
+    "json",
+    "ts"
+  ],
+  "rootDir": ".",
+  "testEnvironment": "node",
+  "testRegex": ".e2e-spec.ts$",
+  "transform": {
+    "^.+\\.(t|j)s$": "ts-jest"
+  },
+  "moduleNameMapper": {
+    "@app/shared/persistent-config/(.*)": "<rootDir>/../libs/shared/persistent-config/src/$1",
+    "@app/shared/persistent-config": "<rootDir>/../libs/shared/persistent-config/src",
+    "@app/shared/enviroments/(.*)": "<rootDir>/../libs/shared/enviroments/src/$1",
+    "@app/shared/enviroments": "<rootDir>/../libs/shared/enviroments/src",
+    "@app/shared/entities/(.*)": "<rootDir>/../libs/shared/entities/src/$1",
+    "@app/shared/entities": "<rootDir>/../libs/shared/entities/src",
+    "@app/shared/data-access/entities/(.*)": "<rootDir>/../libs/shared/data-access/entities/src/$1",
+    "@app/shared/data-access/entities": "<rootDir>/../libs/shared/data-access/entities/src",
+    "@app/shared/data-access/models/(.*)": "<rootDir>/../libs/shared/data-access/models/src/$1",
+    "@app/shared/data-access/models": "<rootDir>/../libs/shared/data-access/models/src",
+    "@app/product/category/data-access/(.*)": "<rootDir>/../libs/product/category/data-access/src/$1",
+    "@app/product/category/data-access": "<rootDir>/../libs/product/category/data-access/src",
+    "@app/product/category/feature/(.*)": "<rootDir>/../libs/product/category/feature/src/$1",
+    "@app/product/category/feature": "<rootDir>/../libs/product/category/feature/src",
+    "@app/product/product/feature/(.*)": "<rootDir>/../libs/product/product/feature/src/$1",
+    "@app/product/product/feature": "<rootDir>/../libs/product/product/feature/src",
+    "@app/product/product/data-access/(.*)": "<rootDir>/../libs/product/product/data-access/src/$1",
+    "@app/product/product/data-access": "<rootDir>/../libs/product/product/data-access/src",
+    "@app/shared/auth-config/(.*)": "<rootDir>/../libs/shared/auth-config/src/$1",
+    "@app/shared/auth-config": "<rootDir>/../libs/shared/auth-config/src"
+  }
+}

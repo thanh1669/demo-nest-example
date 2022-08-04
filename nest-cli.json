@@ -1,0 +1,91 @@
+{
+  "$schema": "https://json.schemastore.org/nest-cli",
+  "collection": "@nestjs/schematics",
+  "sourceRoot": "apps",
+  "projects": {
+    "shared/persistent-config": {
+      "type": "library",
+      "root": "libs/shared/persistent-config",
+      "entryFile": "index",
+      "sourceRoot": "libs/shared/persistent-config/src",
+      "compilerOptions": {
+        "tsConfigPath": "libs/shared/persistent-config/tsconfig.lib.json"
+      }
+    },
+    "shared/enviroments": {
+      "type": "library",
+      "root": "libs/shared/enviroments",
+      "entryFile": "index",
+      "sourceRoot": "libs/shared/enviroments/src",
+      "compilerOptions": {
+        "tsConfigPath": "libs/shared/enviroments/tsconfig.lib.json"
+      }
+    },
+    "shared/data-access/entities": {
+      "type": "library",
+      "root": "libs/shared/data-access/entities",
+      "entryFile": "index",
+      "sourceRoot": "libs/shared/data-access/entities/src",
+      "compilerOptions": {
+        "tsConfigPath": "libs/shared/data-access/entities/tsconfig.lib.json"
+      }
+    },
+    "shared/data-access/models": {
+      "type": "library",
+      "root": "libs/shared/data-access/models",
+      "entryFile": "index",
+      "sourceRoot": "libs/shared/data-access/models/src",
+      "compilerOptions": {
+        "tsConfigPath": "libs/shared/data-access/models/tsconfig.lib.json"
+      }
+    },
+    "product/category/data-access": {
+      "type": "library",
+      "root": "libs/product/category/data-access",
+      "entryFile": "index",
+      "sourceRoot": "libs/product/category/data-access/src",
+      "compilerOptions": {
+        "tsConfigPath": "libs/product/category/data-access/tsconfig.lib.json"
+      }
+    },
+    "product/category/feature": {
+      "type": "library",
+      "root": "libs/product/category/feature",
+      "entryFile": "index",
+      "sourceRoot": "libs/product/category/feature/src",
+      "compilerOptions": {
+        "tsConfigPath": "libs/product/category/feature/tsconfig.lib.json"
+      }
+    },
+    "product/product/feature": {
+      "type": "library",
+      "root": "libs/product/product/feature",
+      "entryFile": "index",
+      "sourceRoot": "libs/product/product/feature/src",
+      "compilerOptions": {
+        "tsConfigPath": "libs/product/product/feature/tsconfig.lib.json"
+      }
+    },
+    "product/product/data-access": {
+      "type": "library",
+      "root": "libs/product/product/data-access",
+      "entryFile": "index",
+      "sourceRoot": "libs/product/product/data-access/src",
+      "compilerOptions": {
+        "tsConfigPath": "libs/product/product/data-access/tsconfig.lib.json"
+      }
+    },
+    "shared/auth-config": {
+      "type": "library",
+      "root": "libs/shared/auth-config",
+      "entryFile": "index",
+      "sourceRoot": "libs/shared/auth-config/src",
+      "compilerOptions": {
+        "tsConfigPath": "libs/shared/auth-config/tsconfig.lib.json"
+      }
+    }
+  },
+  "compilerOptions": {
+    "webpack": true
+  }
+}
